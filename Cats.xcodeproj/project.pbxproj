@@ -85,7 +85,6 @@
 				88A44C5B24D5707A002BC5E7 /* Main.storyboard */,
 				88A44C5E24D5707F002BC5E7 /* Assets.xcassets */,
 				88A44C6024D5707F002BC5E7 /* LaunchScreen.storyboard */,
-				88A44C6324D5707F002BC5E7 /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -132,6 +131,7 @@
 				880E023C24D76EC30012F92C /* Resources */,
 				88A44C5324D57079002BC5E7 /* AppDelegate.swift */,
 				88A44C5524D57079002BC5E7 /* SceneDelegate.swift */,
+				88A44C6324D5707F002BC5E7 /* Info.plist */,
 			);
 			path = Cats;
 			sourceTree = "<group>";

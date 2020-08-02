@@ -56,6 +56,7 @@ extension FavouriteCatImagesViewController {
                 }) { _ in
                     self?.collectionView.reloadItems(at: (self?.collectionView.indexPathsForVisibleItems)!)
                 }
+                self?.emptyView.isHidden = !(self?.viewModel.favorites.isEmpty ?? false)
             }
         }
         self.viewModel.errorCallback = {  [weak self] _ in
